@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Emad</string>
+    <string name="dear_student">Dear Student</string>
+    <string name="please_upload_required_files">Please upload required files</string>
+    <string name="upload_payment_receipt">upload payment receipt</string>
+    <string name="receipt_reference_number">receipt reference number</string>
+    <string name="i_endorse_the_data_filled_above_and_l_would_like_request_the_issuance_of_academic_transcript">I endorse the data filled above and l would like request the issuance of academic transcript</string>
+    <string name="i_confirm_that_i_paid_the_fees_of_38_sar">I confirm that I paid the fees of 38 SAR</string>
+    <string name="submit_the_request">Submit the request</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+    <string name="not_approved_reasons">not approved reasons</string>
+    <string name="this_to_confirm_that_the_student_has_paid_the_fees">This to confirm that the student has paid the fees</string>
+    <string name="this_to_confirm_that_no_financial_issues_are_found">This to confirm that no financial issues are found</string>
+    <string name="approved">Approved</string>
+    <string name="executed_on_the_sis_system">Executed on the sis system</string>
+    <string name="dear">Dear</string>
+    <string name="please_type_your_withdrawal_reasons">Please type your withdrawal reasons</string>
+    <string name="i_endorse_the_data_filled_above_and_i_would_like_to_withdrawal">I endorse the data filled above and I would like to withdrawal</string>
+    <string name="this_is_to_confirm_that_no_financial_issues">This is to confirm that no financial issues</string>
+    <string name="not_approved_reasonns">Not approved reasonns</string>
+</resources>

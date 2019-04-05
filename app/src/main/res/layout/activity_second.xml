@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page2">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="717dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="28dp"
+        android:scrollbarStyle="insideInset"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <RadioButton
+                android:id="@+id/newradio"
+                android:layout_width="373dp"
+                android:layout_height="52dp"
+                android:text="@string/this_to_confirm_that_the_student_has_paid_the_fees"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="64dp" />
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="373dp"
+                android:layout_height="63dp"
+                android:text="@string/this_to_confirm_that_no_financial_issues_are_found"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="176dp" />
+
+            <RadioButton
+                android:id="@+id/radiois"
+                android:layout_width="370dp"
+                android:layout_height="60dp"
+                android:text="@string/not_approved_reasons"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="276dp" />
+
+            <EditText
+                android:id="@+id/editText8"
+                android:layout_width="465dp"
+                android:layout_height="275dp"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="56dp"
+                tools:layout_editor_absoluteY="372dp" />
+
+            <Button
+                android:id="@+id/buttontheer2"
+                android:layout_width="245dp"
+                android:layout_height="45dp"
+                android:background="@color/color2"
+                android:text="@string/submit"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="56dp"
+                tools:layout_editor_absoluteY="684dp" />
+
+            <Button
+
+                android:id="@+id/butnneww"
+                android:layout_width="132dp"
+                android:layout_height="51dp"
+                android:background="@color/color2"
+                android:text="@string/cancel"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="403dp"
+                tools:layout_editor_absoluteY="683dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

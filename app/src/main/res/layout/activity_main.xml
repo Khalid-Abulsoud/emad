@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bb"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="717dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="28dp"
+        android:scrollbarStyle="insideInset"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/neww"
+                android:layout_width="117dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="@string/dear_student"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="60dp" />
+
+
+            <TextView
+                android:id="@+id/tenew2"
+                android:layout_width="240dp"
+                android:layout_height="43dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="@string/please_upload_required_files"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="11dp"
+                tools:layout_editor_absoluteY="136dp" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="218dp"
+                android:layout_height="43dp"
+                android:background="@color/color3"
+                android:text="@string/upload_payment_receipt"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="11dp"
+                tools:layout_editor_absoluteY="197dp" />
+
+            <TextView
+                android:id="@+id/editText4"
+                android:layout_width="237dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="28dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="@string/receipt_reference_number"
+                app:layout_constraintEnd_toEndOf="@+id/button10"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/button10"
+                app:layout_constraintTop_toBottomOf="@+id/button10"
+                tools:ignore="MissingConstraints" />
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="264dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="156dp"
+                android:layout_marginEnd="8dp"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/editText4"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="267dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="540dp"
+                android:layout_height="86dp"
+                android:text="@string/i_endorse_the_data_filled_above_and_l_would_like_request_the_issuance_of_academic_transcript"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="388dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="328dp"
+                android:layout_height="57dp"
+                android:text="@string/i_confirm_that_i_paid_the_fees_of_38_sar"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="11dp"
+                tools:layout_editor_absoluteY="473dp" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="253dp"
+                android:layout_height="wrap_content"
+                android:background="@color/color2"
+                android:text="@string/submit_the_request"
+
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="616dp" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="116dp"
+                android:layout_height="wrap_content"
+                android:background="@color/color2"
+                android:text="@string/cancel"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="454dp"
+                tools:layout_editor_absoluteY="616dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

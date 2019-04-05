@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page5">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="717dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="28dp"
+        android:scrollbarStyle="insideInset"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioButtonnoof"
+                android:layout_width="314dp"
+                android:layout_height="53dp"
+                android:text="@string/this_is_to_confirm_that_no_financial_issues"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="27dp"
+                tools:layout_editor_absoluteY="109dp" />
+
+            <RadioButton
+                android:id="@+id/radioButton4noof"
+                android:layout_width="258dp"
+                android:layout_height="43dp"
+                android:text="@string/not_approved_reasonns"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="26dp"
+                tools:layout_editor_absoluteY="210dp" />
+
+            <EditText
+                android:id="@+id/editText6"
+                android:layout_width="508dp"
+                android:layout_height="205dp"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="285dp" />
+
+            <Button
+                android:id="@+id/button28noof"
+                android:layout_width="259dp"
+                android:layout_height="57dp"
+                android:text="@string/submit"
+                android:background="@color/color2"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="555dp"
+                tools:ignore="HardcodedText,MissingConstraints" />
+
+            <Button
+                android:id="@+id/button29noof"
+                android:layout_width="123dp"
+                android:layout_height="53dp"
+                android:text="@string/cancel"
+                android:background="@color/color2"
+                tools:layout_editor_absoluteX="424dp"
+                tools:layout_editor_absoluteY="555dp"
+                tools:ignore="MissingConstraints" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
